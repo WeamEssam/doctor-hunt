@@ -54,6 +54,11 @@ flutter_native_splash:
   android: true
   ios: true
   fullscreen: true
+  android_12:
+    image: assets/images/android12+ logo.png
+    # image_android: assets/images/android12+ logo.png
+    background_image_android: assets/images/background.jpg
+    
   # android_gravity: center
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

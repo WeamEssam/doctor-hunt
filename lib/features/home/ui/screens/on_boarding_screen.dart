@@ -74,8 +74,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       Navigator.pushNamed(context, SignInScreen.id);
                     } else {
                       pageController.nextPage(
-                          duration: const Duration(milliseconds: 100),
-                          curve: Curves.linear);
+                          duration: const Duration(milliseconds: 300),
+                          curve: Curves.easeIn);
                     }
                   },
                   child: const CustomButton(

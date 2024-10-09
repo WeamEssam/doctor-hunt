@@ -1,5 +1,6 @@
 // ignore_for_file: library_private_types_in_public_api
 
+import 'package:doctor_hunt/core/constants/constants_image.dart';
 import 'package:doctor_hunt/features/home/ui/screens/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -17,6 +18,7 @@ class SvgDisplayer extends StatefulWidget {
 
 class _SvgDisplayerState extends State<SvgDisplayer> {
   final String assetName = 'assets/svgs/Frame.svg';
+
   @override
   void initState() {
     super.initState();
