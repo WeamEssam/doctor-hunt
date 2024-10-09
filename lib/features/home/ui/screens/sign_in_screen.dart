@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class NativeScreen extends StatelessWidget {
-  const NativeScreen({super.key});
+class SignInScreen extends StatelessWidget {
+  const SignInScreen({super.key});
+  static String id = 'sign in';
 
   @override
   Widget build(BuildContext context) {
@@ -17,11 +18,9 @@ class NativeScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Container(
-          child: Text(
-            'hello',
-            style: TextStyle(fontSize: 16.sp),
-          ),
+        child: Text(
+          'Welcome back',
+          style: TextStyle(fontSize: 24.sp),
         ),
       ),
     );

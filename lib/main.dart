@@ -1,5 +1,5 @@
-import 'package:doctor_hunt/features/home/ui/screens/native_screen.dart';
-
+import 'package:doctor_hunt/features/home/ui/screens/sign_in_screen.dart';
+import 'package:doctor_hunt/features/home/ui/screens/sign_up_screen.dart';
 import 'package:doctor_hunt/features/home/ui/widgets/svg_displayer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -24,8 +24,8 @@ class DoctorHunt extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           home: child,
           routes: {
-            '/home': (context) =>
-                const NativeScreen(), // هنا بتحط شاشتك الرئيسية
+            SignUpScreen.id: (context) => const SignUpScreen(),
+            SignInScreen.id: (context) => const SignInScreen(),
           },
         );
       },
